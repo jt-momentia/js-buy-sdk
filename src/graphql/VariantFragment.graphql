@@ -43,4 +43,6 @@ fragment VariantFragment on ProductVariant {
     referenceUnit
     referenceValue
   }
+  quantityAvailable
+  barcode
 }
