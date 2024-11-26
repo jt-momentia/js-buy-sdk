@@ -2440,6 +2440,8 @@ function query(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -2474,8 +2476,6 @@ function query(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.ProductFragment = document.defineFragment("ProductFragment", "Product", function (root) {
     root.add("id");
@@ -2490,6 +2490,7 @@ function query(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -2569,6 +2570,8 @@ function query$1(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -2603,8 +2606,6 @@ function query$1(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.ProductFragment = document.defineFragment("ProductFragment", "Product", function (root) {
     root.add("id");
@@ -2619,6 +2620,7 @@ function query$1(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -2701,6 +2703,8 @@ function query$2(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -2735,8 +2739,6 @@ function query$2(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.ProductFragment = document.defineFragment("ProductFragment", "Product", function (root) {
     root.add("id");
@@ -2751,6 +2753,7 @@ function query$2(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -2842,6 +2845,8 @@ function query$3(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -2876,8 +2881,6 @@ function query$3(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.ProductFragment = document.defineFragment("ProductFragment", "Product", function (root) {
     root.add("id");
@@ -2892,6 +2895,7 @@ function query$3(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -2971,6 +2975,8 @@ function query$4(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -3005,8 +3011,6 @@ function query$4(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.ProductFragment = document.defineFragment("ProductFragment", "Product", function (root) {
     root.add("id");
@@ -3021,6 +3025,7 @@ function query$4(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -3288,6 +3293,8 @@ function query$6(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -3322,8 +3329,6 @@ function query$6(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.CollectionFragment = document.defineFragment("CollectionFragment", "Collection", function (root) {
     root.add("id");
@@ -3353,6 +3358,7 @@ function query$6(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -3502,6 +3508,8 @@ function query$8(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -3536,8 +3544,6 @@ function query$8(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.CollectionFragment = document.defineFragment("CollectionFragment", "Collection", function (root) {
     root.add("id");
@@ -3567,6 +3573,7 @@ function query$8(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -3674,6 +3681,8 @@ function query$9(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -3708,8 +3717,6 @@ function query$9(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.ProductFragment = document.defineFragment("ProductFragment", "Product", function (root) {
     root.add("id");
@@ -3724,6 +3731,7 @@ function query$9(client) {
     root.add("vendor");
     root.add("publishedAt");
     root.add("onlineStoreUrl");
+    root.add("tags");
     root.add("options", function (options) {
       options.add("name");
       options.add("values");
@@ -4128,6 +4136,8 @@ function query$12(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -4162,8 +4172,6 @@ function query$12(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.DiscountApplicationFragment = document.defineFragment("DiscountApplicationFragment", "DiscountApplication", function (root) {
     root.add("targetSelection");
@@ -4501,6 +4509,8 @@ function query$13(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -4535,8 +4545,6 @@ function query$13(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.DiscountApplicationFragment = document.defineFragment("DiscountApplicationFragment", "DiscountApplication", function (root) {
     root.add("targetSelection");
@@ -4892,6 +4900,8 @@ function query$14(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -4926,8 +4936,6 @@ function query$14(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.DiscountApplicationFragment = document.defineFragment("DiscountApplicationFragment", "DiscountApplication", function (root) {
     root.add("targetSelection");
@@ -5284,6 +5292,8 @@ function query$15(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -5318,8 +5328,6 @@ function query$15(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.DiscountApplicationFragment = document.defineFragment("DiscountApplicationFragment", "DiscountApplication", function (root) {
     root.add("targetSelection");
@@ -5676,6 +5684,8 @@ function query$16(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -5710,8 +5720,6 @@ function query$16(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.DiscountApplicationFragment = document.defineFragment("DiscountApplicationFragment", "DiscountApplication", function (root) {
     root.add("targetSelection");
@@ -6061,6 +6069,8 @@ function query$17(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -6095,8 +6105,6 @@ function query$17(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.DiscountApplicationFragment = document.defineFragment("DiscountApplicationFragment", "DiscountApplication", function (root) {
     root.add("targetSelection");
@@ -6453,6 +6461,8 @@ function query$18(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -6487,8 +6497,6 @@ function query$18(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.DiscountApplicationFragment = document.defineFragment("DiscountApplicationFragment", "DiscountApplication", function (root) {
     root.add("targetSelection");
@@ -6845,6 +6853,8 @@ function query$19(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -6879,8 +6889,6 @@ function query$19(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.DiscountApplicationFragment = document.defineFragment("DiscountApplicationFragment", "DiscountApplication", function (root) {
     root.add("targetSelection");
@@ -7236,6 +7244,8 @@ function query$20(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -7270,8 +7280,6 @@ function query$20(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.DiscountApplicationFragment = document.defineFragment("DiscountApplicationFragment", "DiscountApplication", function (root) {
     root.add("targetSelection");
@@ -7627,6 +7635,8 @@ function query$21(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -7661,8 +7671,6 @@ function query$21(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.DiscountApplicationFragment = document.defineFragment("DiscountApplicationFragment", "DiscountApplication", function (root) {
     root.add("targetSelection");
@@ -8019,6 +8027,8 @@ function query$22(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -8053,8 +8063,6 @@ function query$22(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.DiscountApplicationFragment = document.defineFragment("DiscountApplicationFragment", "DiscountApplication", function (root) {
     root.add("targetSelection");
@@ -8411,6 +8419,8 @@ function query$23(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -8445,8 +8455,6 @@ function query$23(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.DiscountApplicationFragment = document.defineFragment("DiscountApplicationFragment", "DiscountApplication", function (root) {
     root.add("targetSelection");
@@ -8803,6 +8811,8 @@ function query$24(client) {
       alias: "available"
     });
     root.add("sku");
+    root.add("quantityAvailable");
+    root.add("barcode");
     root.add("compareAtPrice", function (compareAtPrice) {
       compareAtPrice.add("amount");
       compareAtPrice.add("currencyCode");
@@ -8837,8 +8847,6 @@ function query$24(client) {
       unitPriceMeasurement.add("referenceUnit");
       unitPriceMeasurement.add("referenceValue");
     });
-    root.add("quantityAvailable");
-    root.add("barcode");
   });
   spreads.DiscountApplicationFragment = document.defineFragment("DiscountApplicationFragment", "DiscountApplication", function (root) {
     root.add("targetSelection");
@@ -10195,6 +10203,7 @@ var Product = {
     "options": "ProductOption",
     "productType": "String",
     "publishedAt": "DateTime",
+    "tags": "String",
     "title": "String",
     "updatedAt": "DateTime",
     "variants": "ProductVariantConnection",
