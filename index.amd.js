@@ -2298,7 +2298,7 @@ var Config = function () {
     if (attrs.hasOwnProperty('apiVersion')) {
       this.apiVersion = attrs.apiVersion;
     } else {
-      this.apiVersion = '2024-04';
+      this.apiVersion = '2025-04';
     }
 
     if (attrs.hasOwnProperty('source')) {
